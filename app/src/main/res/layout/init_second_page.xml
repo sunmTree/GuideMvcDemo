@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/second_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/title_style"
+        android:text="Select Wallpaper"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/second_wallpaper"
+        android:layout_width="168dp"
+        android:layout_height="260dp"
+        android:src="@mipmap/butter_fly"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
